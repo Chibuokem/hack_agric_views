@@ -64,3 +64,11 @@ body{
    text-transform: bold;
 
 }
+.nav-links-cont >li > a{
+	color: #fff !important;
+}
+
+.nav-links-cont >li:active{
+	background-color: transparent !important;
+	color: black !important;
+}
