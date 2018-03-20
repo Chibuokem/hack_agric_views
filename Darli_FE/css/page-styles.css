@@ -67,8 +67,44 @@ body{
 .nav-links-cont >li > a{
 	color: #fff !important;
 }
+.nav-links-cont >li > a:hover{
+	color: #000 !important;
+}
+.nav-links-cont >li > a:actives{
+	color: #000 !important;
+}
 
 .nav-links-cont >li:active{
 	background-color: transparent !important;
-	color: black !important;
+}
+.nav-links-cont > .active > a{
+	background-color: unset !important;
+}
+.nav-links-cont > li:hover{
+	color: black;
+} 
+.carousel-control{
+	background-image: unset !important;
+	opacity: unset !important;
+}
+.carousel-control:hover{
+	background-image: unset !important;
+	opacity: unset !important;
+}
+.search::placeholder::before {
+  content: "";
+}
+.slide-one{
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/hero1.jpg);
+	max-height: 550px;
+	width: 100%;
+}
+.slide-two{
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/hero1.jpg);
+	max-height: 550px;
+	width: 100%;
 }
